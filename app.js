@@ -22,7 +22,7 @@ var time = h + ":" + m + ":" + s + " " + session;
 
 document.getElementById('clockDisplay').innerText = time;
 
-document.getElementById('clockDispaly').textContent = time;
+document.getElementById('clockDisplay').textContent = time;
 
   setTimeout(showTime, 1000)
 }
